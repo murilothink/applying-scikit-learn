@@ -30,11 +30,11 @@ cor = input("ENTRE COM A COR \n 1 Verde \n 2 Vermelha\n 3 Amarela \n 4 Laranja")
 resultadoUsuario = clf.predict([[letras, cor]])
 
 if  resultadoUsuario == 1:
-    print(" \n Sua fruta é Verde")
+    print(" \n Sua fruta é Pera")
 elif resultadoUsuario == 2:
-    print(" \n Sua fruta é Vermelha")
+    print(" \n Sua fruta é Morango")
 elif resultadoUsuario == 3:
-    print(" \n Sua fruta é Amarela")
+    print(" \n Sua fruta é Banana")
 
 else:
     print( " \n É uma laranja")
