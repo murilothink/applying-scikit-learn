@@ -24,10 +24,10 @@ clf = clf.fit(pomar, resultado)
 
 input('Escolha uma fruta e memorize: \n BANANA \n PERA \n MORANGO \n LARANJA \n Digite "Ok" para continuar  \n')
 
-peso = input("Quantas letras sua fruta tem?")
-surpefice = input("ENTRE COM A COR \n 1 Verde \n 2 Vermelha\n 3 Amarela \n 4 Laranja")
+letras = input("Quantas letras sua fruta tem?")
+cor = input("ENTRE COM A COR \n 1 Verde \n 2 Vermelha\n 3 Amarela \n 4 Laranja")
 
-resultadoUsuario = clf.predict([[peso, surpefice]])
+resultadoUsuario = clf.predict([[letras, cor]])
 
 if  resultadoUsuario == 1:
     print(" \n Sua fruta é Verde")
