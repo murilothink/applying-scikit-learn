@@ -22,7 +22,7 @@ resultado = [1,2,3,4]
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(pomar, resultado)
 
-input('Escolha uma dessas frutas e memorize: \n BANANA \n PERA \n MORANGO \n LARANJA \n Digite "Ok" para continuar  \n')
+input('Escolha uma fruta e memorize: \n BANANA \n PERA \n MORANGO \n LARANJA \n Digite "Ok" para continuar  \n')
 
 peso = input("Quantas letras sua fruta tem?")
 surpefice = input("ENTRE COM A COR \n 1 Verde \n 2 Vermelha\n 3 Amarela \n 4 Laranja")
