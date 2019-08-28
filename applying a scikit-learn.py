@@ -33,8 +33,10 @@ resultadoUsuario = clf.predict([[peso,primeira_letra, surpefice]])
 
 if  resultadoUsuario == 1:
     print(" \n Sua fruta é Pera")
+    
 elif resultadoUsuario == 2:
     print(" \n Sua fruta é Morango ")
+    
 elif resultadoUsuario == 3:
     print(" \n Sua fruta é Banana")
 
