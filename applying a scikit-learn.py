@@ -25,7 +25,7 @@ input('Escolha uma dessas frutas e memorize: BANANA  PERA  MORANGO  LARANJA  MA�
 
 peso = input(" \n Quantas letras sua fruta tem?")
 
-primeira_letra = input(" \n ESCOLHA UM GRUPO QUE CONSIDERE A PRIMEIRA LETRA DA SUA FRUTA \n ABCD Digite 1 \n EFGH Digite 2 \n IJKL Digite 3 \n MNOP Digite 4 \n")
+primeira_letra = input(" \n ESCOLHA UM GRUPO QUE CONSIDERE A PRIMEIRA LETRA DA SUA FRUTA \n ABCD Digite 1 \n EFGH Digite 2 \n IJKL Digite 3 \n MNOP Digite 4 \n QRST Digite 5 \n UVWXYZ Digite 6 ")
 
 surpefice = input(" \n ENTRE COM A COR \n 1 Verde \n 2 Vermelha\n 3 Amarela \n 4 Laranja")
 
@@ -33,10 +33,8 @@ resultadoUsuario = clf.predict([[peso,primeira_letra, surpefice]])
 
 if  resultadoUsuario == 1:
     print(" \n Sua fruta é Pera")
-    
 elif resultadoUsuario == 2:
     print(" \n Sua fruta é Morango ")
-    
 elif resultadoUsuario == 3:
     print(" \n Sua fruta é Banana")
 
@@ -51,6 +49,7 @@ elif resultadoUsuario == 6:
 
 else:
     print( " \n É uma Abacaxi")
+
 
 
 
